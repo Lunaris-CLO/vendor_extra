@@ -3,8 +3,7 @@ TARGET_PREBUILT_LAWNCHAIR_LAUNCHER ?= true
 ifeq ($(strip $(TARGET_PREBUILT_LAWNCHAIR_LAUNCHER)),true)
 PRODUCT_PACKAGES += \
     Lawnchair \
-    LawnchairOverlay \
-    Lawnicons
+    LawnchairOverlay 
 
 # Lawnchair Launcher
 PRODUCT_PRODUCT_PROPERTIES += \
